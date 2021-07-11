@@ -4,7 +4,9 @@ import './Content.css';
 const App = props => {
    return (
     <main className='Content'>
-        Content
+        <h1>
+            Content
+        </h1>
     </main>
    )
 }
