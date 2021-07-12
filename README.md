@@ -2,7 +2,7 @@
 
 ---
 
-### Tecnologies
+### Technologies
 
 <div align="center">
 
