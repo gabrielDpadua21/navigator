@@ -9,7 +9,7 @@ const Param = props => {
    return (
     <div className='Param'>
         <h1>Router Params</h1>
-        <p>User id: {id}</p>
+        <h2>User id: {id}</h2>
     </div>
    )
 }
