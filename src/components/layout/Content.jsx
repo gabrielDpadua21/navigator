@@ -5,6 +5,7 @@ import { Switch, Route } from 'react-router-dom'
 import Home from '../../views/exemples/Home';
 import About from '../../views/exemples/About';
 import Param from '../../views/exemples/Params';
+import NotFound from '../../views/exemples/NotFound';
 
 const App = props => {
    return (
@@ -12,7 +13,8 @@ const App = props => {
         <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
-            <Route path="/param/:id" component={Param} />
+            <Route exact path="/param/:id" component={Param} />
+            <Route path="*" component={NotFound} />
         </Switch>
     </main>
    )
