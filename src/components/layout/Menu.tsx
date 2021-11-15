@@ -2,7 +2,7 @@ import React from 'react';
 import './Menu.css';
 import { Link } from 'react-router-dom'
 
-const Menu = props => {
+const Menu = (props: any) => {
    return (
     <aside className='Menu'>
         <nav>

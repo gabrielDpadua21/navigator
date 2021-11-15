@@ -4,7 +4,7 @@ import Menu from '../components/layout/Menu';
 import Content from '../components/layout/Content';
 import { BrowserRouter as Router } from 'react-router-dom'
 
-const App = props => {
+const App = (props: any) => {
    return (
     <div className='App'>
         <Router>

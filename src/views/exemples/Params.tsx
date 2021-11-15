@@ -2,9 +2,15 @@ import React from 'react';
 
 import { useParams } from 'react-router-dom';
 
-const Param = props => {
+interface ParamTypes {
+    id: string;
+}
 
-    const { id } = useParams();
+const Param = (props: any) => {
+
+    console.log(useParams);
+
+    const { id } = useParams<ParamTypes>();
 
    return (
     <div className='Param'>
