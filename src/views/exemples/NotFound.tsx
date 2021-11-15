@@ -1,6 +1,6 @@
 import React from 'react';
 
-const NotFound = props => {
+const NotFound = (props: any) => {
    return (
     <div className='NotFound'>
         <h1>404</h1>

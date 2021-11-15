@@ -1,6 +1,6 @@
 import React from 'react';
 
-const About = props => {
+const About = (props: any) => {
    return (
     <div className='About'>
         <h1>About</h1>

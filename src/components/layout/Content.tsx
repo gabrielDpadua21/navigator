@@ -7,7 +7,7 @@ import About from '../../views/exemples/About';
 import Param from '../../views/exemples/Params';
 import NotFound from '../../views/exemples/NotFound';
 
-const App = props => {
+const App = (props: any) => {
    return (
     <main className='Content'>
         <Switch>
